@@ -1,6 +1,6 @@
-									GoMediaForge v15.0.0 - 高性能媒体转换工具
-
-							GoMediaForge v15.0.0 - High-Performance Media Converter
+# MediaForge v15.0.0 - 高性能媒体转换工具⬇️
+	
+# GoMediaForge v15.0.0 - High-Performance Media Converter⬆️
 
 
 
@@ -44,39 +44,26 @@ Metadata Preservation: Retains original file metadata (e.g., EXIF).
 详细日志：生成详细日志和报告，记录转换结果和空间节省。
 Detailed Logging: Generates comprehensive logs and reports, tracking conversion results and space savings.
 
-安装与使用 | Installation & Usage
+
+
 
 # 安装依赖 | Install dependencies
-brew install ffmpeg imagemagick jpeg-xl exiftool
+	#安装与使用 | Installation & Usage
+	brew install ffmpeg imagemagick jpeg-xl exiftool
 # 运行脚本 | Run the script
-go run main.go --dir <目标文件夹> --mode auto --jobs 4 --hwaccel true
+	go run main.go --dir <目标文件夹> --mode auto --jobs 4 --hwaccel true
 
-依赖 | Dependencies
+# 依赖 | Dependencies 
+	Core: ffmpeg, imagemagick, exiftool
+	Optional: cjxl（JXL 转换 | for JXL conversion），libsvtav1（AV1 编码 | for AV1 encoding）
 
+#  Logs与位置: 
+	<目标文件夹>/<模式>_conversion_<时间戳>.txt
 
-
-
-
-核心 | Core: ffmpeg, imagemagick, exiftool
-
-
-
-可选 | Optional: cjxl（JXL 转换 | for JXL conversion），libsvtav1（AV1 编码 | for AV1 encoding）
-
-
-
-日志 | Logs: <目标文件夹>/<模式>_conversion_<时间戳>.txt
-
-适合场景 | Use Cases
-
-
-
-
+# 适合场景 | Use Cases
 
 批量转换照片和视频以节省存储空间。
 Batch convert photos and videos to save storage space.
-
-
 
 将传统格式（PNG、JPG、MP4）转为现代格式（AVIF、JXL、HEVC）。
 Transform legacy formats (PNG, JPG, MP4) to modern formats (AVIF, JXL, HEVC).
@@ -86,7 +73,7 @@ Transform legacy formats (PNG, JPG, MP4) to modern formats (AVIF, JXL, HEVC).
 存档高质量媒体或优化日常分享。
 Archive high-quality media or optimize for everyday sharing.
 
-免责声明 | Disclaimer
+# 免责声明 | Disclaimer
 
 本脚本仅限个人使用，经自用转换测试，未经过广泛场景验证。可能存在未发现的 bug，问题修复可能不及时或无响应。建议具备一定开发经验的用户自行调试和修复问题，使用前请备份重要文件。
 
