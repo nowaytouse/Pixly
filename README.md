@@ -1,10 +1,14 @@
-											媒体批量转换脚本 v15.0.0 - Go 高性能版
+											GoMediaForge v15.0.0 - 高性能媒体转换工具
 
-									Media Converter v15.0.0 - High-Performance Go Edition
+									GoMediaForge v15.0.0 - High-Performance Media Converter
 
-欢迎使用媒体批量转换脚本！本工具采用 Go 语言重构，专为 macOS 优化，提供高效、可靠的图像和视频格式转换。支持 AVIF、JXL、HEVC 和 AV1 格式，适用于存档、日常使用或自动化任务。
 
-Welcome to the Media Converter! This script, rewritten in Go, is optimized for macOS, offering efficient and reliable batch conversion for images and videos. It supports AVIF, JXL, HEVC, and AV1 formats, ideal for archiving, daily use, or automated workflows.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+欢迎使用 GoMediaForge！本工具采用 Go 语言重构，专为 macOS 优化，提供高效、可靠的图像和视频格式转换。支持 AVIF、JXL、HEVC 和 AV1 格式，适用于存档、日常使用或自动化任务。
+
+Welcome to GoMediaForge! This script, rewritten in Go, is optimized for macOS, offering efficient and reliable batch conversion for images and videos. It supports AVIF, JXL, HEVC, and AV1 formats, ideal for archiving, daily use, or automated workflows.
 
 核心特性 | Key Features
 
