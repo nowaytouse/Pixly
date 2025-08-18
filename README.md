@@ -1,6 +1,6 @@
-# MediaForge v15.0.0 - 高性能媒体转换工具⬇️
+# ⬇️MediaForge v15.0.0 - 高性能媒体转换工具
 	
-# GoMediaForge v15.0.0 - High-Performance Media Converter⬆️
+# ⬆️GoMediaForge v15.0.0 - High-Performance Media Converter
 
 
 
