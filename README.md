@@ -1,6 +1,7 @@
 # Pixly - 智能媒体现代化转换器
 
-![Pixly Logo](![Uploading favicon-256x256.png…])) <!-- 极简像素化P字母，部分像素点采用渐变色表示格式转换 -->
+![Pixly Logo]( <img width="256" height="256" alt="favicon-256x256" src="https://github.com/user-attachments/assets/fe622164-4c65-4b8d-a429-289cae866a84" />)
+ <!-- 极简像素化P字母，部分像素点采用渐变色表示格式转换 -->
 
 > **Convert 100,000+ media files with intelligent quality-aware processing**  
 > *专为 macOS M 芯片设计的高性能媒体格式现代化转换解决方案,面向现代格式的视频/图像媒体转换器*
