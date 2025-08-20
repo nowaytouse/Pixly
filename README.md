@@ -1,6 +1,6 @@
 # Pixly - 智能媒体现代化转换器
 
-<img width="256" height="256" alt="favicon-256x256" src="https://github.com/user-attachments/assets/6ab462a0-ce38-40ad-b151-ec728ef38025" />
+ <img width="256" height="256" alt="favicon-256x256" src="https://github.com/user-attachments/assets/6ab462a0-ce38-40ad-b151-ec728ef38025" />
 
  <!-- 极简像素化P字母，部分像素点采用渐变色表示格式转换 -->
 
