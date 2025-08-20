@@ -22,13 +22,10 @@ Pixly 是一款专为处理**10万+级别媒体目录**而生的现代化转换�
 ## 📦 安装与使用
 
 ```bash
-# 通过 Homebrew 安装（推荐）
-brew tap pixly/tap
-brew install pixly
 
-# 或直接下载
-curl -L https://github.com/pixly/pixly/releases/latest/download/pixly-mac-arm64.tar.gz | tar xz
-sudo mv pixly /usr/local/bin/
+#可以在发布页面下载编译后的程序,也可以自行编译,需要具备安装依赖项
+
+
 ```
 
 **使用方法**:
