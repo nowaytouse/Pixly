@@ -1,6 +1,7 @@
 # Pixly - 智能媒体现代化转换器
 
-![Pixly Logo]( <img width="256" height="256" alt="favicon-256x256" src="https://github.com/user-attachments/assets/fe622164-4c65-4b8d-a429-289cae866a84" />)
+<img width="256" height="256" alt="favicon-256x256" src="https://github.com/user-attachments/assets/6ab462a0-ce38-40ad-b151-ec728ef38025" />
+
  <!-- 极简像素化P字母，部分像素点采用渐变色表示格式转换 -->
 
 > **Convert 100,000+ media files with intelligent quality-aware processing**  
