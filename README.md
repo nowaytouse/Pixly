@@ -1,80 +1,157 @@
-# ⬇️MediaForge v15.0.0 - 高性能媒体转换工具
-	
-# ⬆️GoMediaForge v15.0.0 - High-Performance Media Converter
+# Pixly - 智能媒体现代化转换器
 
+![Pixly Logo](https://via.placeholder.com/150/333333/FFFFFF?text=PX) <!-- 极简像素化P字母，部分像素点采用渐变色表示格式转换 -->
 
+> **Convert 100,000+ media files with intelligent quality-aware processing**  
+> *专为 macOS M 芯片设计的高性能媒体格式现代化转换解决方案*
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
-欢迎使用 GoMediaForge！本工具采用 Go 语言重构，专为 macOS 优化，提供高效、可靠的图像和视频格式转换。支持 AVIF、JXL、HEVC 和 AV1 格式，适用于存档、日常使用或自动化任务。
+## ✨ 为什么选择 Pixly
 
-Welcome to GoMediaForge! This script, rewritten in Go, is optimized for macOS, offering efficient and reliable batch conversion for images and videos. It supports AVIF, JXL, HEVC, and AV1 formats, ideal for archiving, daily use, or automated workflows.
+Pixly 是一款专为处理**10万+级别媒体目录**而生的现代化转换工具，它不仅仅是格式转换器，更是您的媒体资产管家。不同于其他工具，Pixly 采用**智能质量感知引擎**，针对每张图片的实际情况做出最优决策，确保在保证质量的同时最大化节省存储空间。
 
-核心特性 | Key Features
+**核心优势**:
+- 🚀 **极致性能** - 专为 Apple Silicon 优化，75% 系统资源智能调度
+- 🧠 **智能决策** - 五级质量评估系统，针对不同质量文件采用不同策略
+- 🛡️ **安全可靠** - 断点续传、文件备份、防卡死机制三重保障
+- ⏱️ **高效处理** - 优先处理低质量文件，提升用户体验
 
+## 📦 安装与使用
 
+```bash
+# 通过 Homebrew 安装（推荐）
+brew tap pixly/tap
+brew install pixly
 
+# 或直接下载
+curl -L https://github.com/pixly/pixly/releases/latest/download/pixly-mac-arm64.tar.gz | tar xz
+sudo mv pixly /usr/local/bin/
+```
 
+**使用方法**:
+1. 将目标文件夹拖入终端窗口
+2. 按 Enter 键启动转换
+3. 查看智能决策与详细报告
 
-多种模式：质量模式（追求极致画质）、效率模式（平衡画质与体积）、自动模式（智能选择）。
-Multiple Modes: Quality mode (maximum fidelity), Efficiency mode (balanced quality/size), Auto mode (smart selection).
+```
+请拖入目标文件夹，然后按 Enter: /Users/username/Pictures
+🚀 启动 Pixly v20.2.7-GO-TITANIUM-STREAMING-ENHANCED
+📁 目标: /Users/username/Pictures
+⚙️ 模式: auto
 
+🔍 正在扫描媒体文件...
+📊 扫描完成: 95,642 文件 (已评估: 95,638)
+⚠️ 检测到 91,245 个极低质量文件
 
+请选择如何处理这些极低质量文件:
+  [1] 全部跳过 (默认, 5秒后自动选择)
+  [2] 全部尝试修复并转换
+  [3] 全部直接删除
+```
 
-高性能：并发处理，充分利用多核 CPU，支持 macOS VideoToolbox 硬件加速。
-High Performance: Concurrent processing leveraging multi-core CPUs, with macOS VideoToolbox hardware acceleration.
+## 🌐 核心功能
 
+### 🧪 五级质量评估引擎
+Pixly 使用先进的视觉感知分析技术，对每张图片进行深度评估：
 
+| 质量级别 | 评估标准 | 处理策略 |
+|----------|----------|----------|
+| **极高质量** | 原画级质量，噪声极低，锐度高 | 优先使用 JXL 数学无损转换 |
+| **高质量** | 质量优秀，轻微压缩痕迹 | 优先使用 JXL/AVIF 无损转换 |
+| **中质量** | 中等质量，可见压缩伪影 | 智能决策使用质量或效率模式 |
+| **低质量** | 质量较差，明显压缩伪影 | 使用效率模式压缩探底 |
+| **极低质量** | 严重压缩/损坏，几乎无法识别 | 提供批量处理选项 |
 
-智能跳过：自动识别并跳过 Live Photo、空间图像及不支持的文件。
-Smart Skipping: Automatically skips Live Photos, spatial images, and unsupported files.
+*评估指标包括：噪声水平、锐度、压缩伪影、像素密度、熵值等*
 
+### 🔄 三种智能转换模式
 
+#### **自动模式** (默认)
+- **高质量以上** → 使用质量模式
+- **中质量以下** → 使用效率模式
+- **智能决策统计** → 提供详细报告
 
-备份与续传：支持文件备份，断点续传减少重复处理。
-Backup & Resume: Supports file backups and resumable processing to avoid redundant work.
+#### **质量模式**
+- **静图**: 优先使用 JXL (数学无损)，对 JPEG 使用 `--lossless_jpeg=1`
+- **动图**: 转换为 AVIF (无损)
+- **视频**: 转换为 MOV (HEVC/AV1 无损)
 
+#### **效率模式**
+1. 首先进行无损尝试，记录与原文件大小对比
+2. 基于质量级别动态调整压缩参数
+3. 压缩探底确保转换后文件小于原文件
+4. 智能平衡质量与文件大小（偏重质量）
 
+## 📊 转换报告示例
 
-元数据保留：保留原始文件元数据（如 EXIF）。
-Metadata Preservation: Retains original file metadata (e.g., EXIF).
+```
+📊 ================= 媒体转换最终报告 ==================
+📁 目录: /Users/username/Pictures
+⚙️ 模式: auto    🚀 版本: 20.2.7-GO-TITANIUM-STREAMING-ENHANCED
+⏰ 耗时: 12m 45s
 
+--- 📋 概览 ---
+  🗂️ 总计发现: 95,642 文件
+  ✅ 成功转换: 87,231
+  ❌ 转换失败: 147
+  ⏭️ 主动跳过: 8,264
+  🔄 断点续传: 0
 
+--- 💾 大小变化 ---
+  💰 空间变化: ⬆️12.3 MB ⬇️4.56 GB
 
-详细日志：生成详细日志和报告，记录转换结果和空间节省。
-Detailed Logging: Generates comprehensive logs and reports, tracking conversion results and space savings.
+--- 🔍 质量分布 ---
+  🌟 极高质量: 2,145
+  ⭐ 高质量: 18,342
+  ✨ 中质量: 27,891
+  💤 低质量: 24,567
+  ⚠️ 极低质量: 22,697
 
+--- 🧠 智能决策 ---
+  🧠 智能决策文件: 64,534 (74%)
+  💎 无损优势识别: 18,245
+```
 
+## ⚙️ 高级特性
 
+- **5秒自动选择** - 极低质量文件批量处理默认5秒后自动跳过
+- **内存看门狗** - 自动监测内存使用，动态调整并发数避免进程被杀
+- **多层元数据迁移** - 通过exiftool、jhead等工具确保EXIF/ICC完整迁移
+- **进度可视化** - 精准实时进度条，适配各种终端窗口大小
+- **暗黑/明亮模式** - 适配系统主题的现代UI设计
+- **文件锁备份** - 避免异常介入导致文件损坏
 
-# 安装依赖 | Install dependencies
-	#安装与使用 | Installation & Usage
-	brew install ffmpeg imagemagick jpeg-xl exiftool
-# 运行脚本 | Run the script
-	go run main.go --dir <目标文件夹> --mode auto --jobs 4 --hwaccel true
+## ⚠️ 免责声明
 
-# 依赖 | Dependencies 
-	Core: ffmpeg, imagemagick, exiftool
-	Optional: cjxl（JXL 转换 | for JXL conversion），libsvtav1（AV1 编码 | for AV1 encoding）
+> **此项目仅为个人需求制作，非商业产品**  
+> 项目维护为业余时间进行，**问题反馈可能不及时或无响应**。  
+> 如遇紧急问题，建议具备一定Go语言开发经验的用户自行排查修复。  
+> 项目提供"按原样"，不提供任何形式的保证或技术支持。
 
-#  Logs与位置: 
-	<目标文件夹>/<模式>_conversion_<时间戳>.txt
+## 📋 技术细节
 
-# 适合场景 | Use Cases
+- **仅支持 macOS M 芯片** - 专为 Apple Silicon (ARM64) 架构优化
+- **7核心并发处理** - 默认使用 75% 系统资源，可自动调整
+- **媒体白名单识别** - 全面支持主流及冷门媒体格式
+- **跳过特定文件** - 自动跳过 live 图、空间图片、已是目标格式、不支持的文件类型
+- **断点续传** - 意外中断后可继续处理，避免重复工作
 
-批量转换照片和视频以节省存储空间。
-Batch convert photos and videos to save storage space.
+## 🤝 贡献指南
 
-将传统格式（PNG、JPG、MP4）转为现代格式（AVIF、JXL、HEVC）。
-Transform legacy formats (PNG, JPG, MP4) to modern formats (AVIF, JXL, HEVC).
+欢迎贡献！请遵循以下步骤:
 
+1. Fork 本仓库
+2. 创建新特性分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 打开 Pull Request
 
+## 📄 许可证
 
-存档高质量媒体或优化日常分享。
-Archive high-quality media or optimize for everyday sharing.
+本项目采用 MIT 订可证 - 详见 [LICENSE](LICENSE) 文件。
 
-# 免责声明 | Disclaimer
+---
 
-本脚本仅限个人使用，经自用转换测试，未经过广泛场景验证。可能存在未发现的 bug，问题修复可能不及时或无响应。建议具备一定开发经验的用户自行调试和修复问题，使用前请备份重要文件。
-
-This script is intended for personal use and has been tested in limited scenarios. It may contain undiscovered bugs, and issue resolution may be delayed or unresponsive. Users with some development experience are recommended to debug and fix issues themselves. Please back up important files before use.
+> **Pixly** - 像素级媒体现代化转换  
+> *大规模处理 · 智能决策 · 极致性能*
