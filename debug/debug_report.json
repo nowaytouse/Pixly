@@ -1,0 +1,207 @@
+{
+  "timestamp": "2025-09-05T23:01:56.38834+08:00",
+  "total_scenarios": 12,
+  "passed_scenarios": 0,
+  "failed_scenarios": 12,
+  "results": [
+    {
+      "scenario_id": "basic_conversion_auto_plus",
+      "success": false,
+      "duration": 0,
+      "files_processed": 0,
+      "files_successful": 0,
+      "files_failed": 0,
+      "files_skipped": 0,
+      "compression_ratio": 0,
+      "errors": [
+        "conversion failed: 执行转换失败: 路径权限检查失败 failed: 路径不存在: /Users/nameko_1/Downloads/test_副本3/TEST_NORMAL_FILES"
+      ],
+      "quality_analysis": null,
+      "format_check": null,
+      "issues": null
+    },
+    {
+      "scenario_id": "basic_conversion_quality",
+      "success": false,
+      "duration": 0,
+      "files_processed": 0,
+      "files_successful": 0,
+      "files_failed": 0,
+      "files_skipped": 0,
+      "compression_ratio": 0,
+      "errors": [
+        "conversion failed: 执行转换失败: 路径权限检查失败 failed: 路径不存在: /Users/nameko_1/Downloads/test_副本3/TEST_SAMPLES"
+      ],
+      "quality_analysis": null,
+      "format_check": null,
+      "issues": null
+    },
+    {
+      "scenario_id": "basic_conversion_emoji",
+      "success": false,
+      "duration": 0,
+      "files_processed": 0,
+      "files_successful": 0,
+      "files_failed": 0,
+      "files_skipped": 0,
+      "compression_ratio": 0,
+      "errors": [
+        "conversion failed: 执行转换失败: 路径权限检查失败 failed: 路径不存在: /Users/nameko_1/Downloads/test_副本3/TEST_COMPREHENSIVE/images"
+      ],
+      "quality_analysis": null,
+      "format_check": null,
+      "issues": null
+    },
+    {
+      "scenario_id": "timestamp_preservation_test",
+      "success": false,
+      "duration": 0,
+      "files_processed": 0,
+      "files_successful": 0,
+      "files_failed": 0,
+      "files_skipped": 0,
+      "compression_ratio": 0,
+      "errors": [
+        "conversion failed: 执行转换失败: 路径权限检查失败 failed: 路径不存在: /Users/nameko_1/Downloads/test_副本3/TEST_NORMAL_FILES"
+      ],
+      "quality_analysis": null,
+      "format_check": null,
+      "issues": null
+    },
+    {
+      "scenario_id": "corrupted_files_handling",
+      "success": false,
+      "duration": 0,
+      "files_processed": 0,
+      "files_successful": 0,
+      "files_failed": 0,
+      "files_skipped": 0,
+      "compression_ratio": 0,
+      "errors": [
+        "conversion failed: 执行转换失败: 路径权限检查失败 failed: 路径不存在: /Users/nameko_1/Downloads/test_副本3/TEST_SAMPLES"
+      ],
+      "quality_analysis": null,
+      "format_check": null,
+      "issues": null
+    },
+    {
+      "scenario_id": "progress_bar_test",
+      "success": false,
+      "duration": 0,
+      "files_processed": 0,
+      "files_successful": 0,
+      "files_failed": 0,
+      "files_skipped": 0,
+      "compression_ratio": 0,
+      "errors": [
+        "conversion failed: 执行转换失败: 路径权限检查失败 failed: 路径不存在: /Users/nameko_1/Downloads/test_副本3/TEST_COMPREHENSIVE/images"
+      ],
+      "quality_analysis": null,
+      "format_check": null,
+      "issues": null
+    },
+    {
+      "scenario_id": "concurrent_processing_test",
+      "success": false,
+      "duration": 0,
+      "files_processed": 0,
+      "files_successful": 0,
+      "files_failed": 0,
+      "files_skipped": 0,
+      "compression_ratio": 0,
+      "errors": [
+        "conversion failed: 执行转换失败: 路径权限检查失败 failed: 路径不存在: /Users/nameko_1/Downloads/test_副本3/TEST_COMPREHENSIVE"
+      ],
+      "quality_analysis": null,
+      "format_check": null,
+      "issues": null
+    },
+    {
+      "scenario_id": "large_file_handling_test",
+      "success": false,
+      "duration": 0,
+      "files_processed": 0,
+      "files_successful": 0,
+      "files_failed": 0,
+      "files_skipped": 0,
+      "compression_ratio": 0,
+      "errors": [
+        "conversion failed: 执行转换失败: 路径权限检查失败 failed: 路径不存在: /Users/nameko_1/Downloads/test_副本3/TEST_COMPREHENSIVE/videos"
+      ],
+      "quality_analysis": null,
+      "format_check": null,
+      "issues": null
+    },
+    {
+      "scenario_id": "multi_format_compatibility_test",
+      "success": false,
+      "duration": 0,
+      "files_processed": 0,
+      "files_successful": 0,
+      "files_failed": 0,
+      "files_skipped": 0,
+      "compression_ratio": 0,
+      "errors": [
+        "conversion failed: 执行转换失败: 路径权限检查失败 failed: 路径不存在: /Users/nameko_1/Downloads/test_副本3/TEST_NORMAL_FILES"
+      ],
+      "quality_analysis": null,
+      "format_check": null,
+      "issues": null
+    },
+    {
+      "scenario_id": "edge_case_handling_test",
+      "success": false,
+      "duration": 0,
+      "files_processed": 0,
+      "files_successful": 0,
+      "files_failed": 0,
+      "files_skipped": 0,
+      "compression_ratio": 0,
+      "errors": [
+        "conversion failed: 执行转换失败: 路径权限检查失败 failed: 路径不存在: /Users/nameko_1/Downloads/test_副本3/TEST_SAMPLES"
+      ],
+      "quality_analysis": null,
+      "format_check": null,
+      "issues": null
+    },
+    {
+      "scenario_id": "stress_test_high_concurrency",
+      "success": false,
+      "duration": 0,
+      "files_processed": 0,
+      "files_successful": 0,
+      "files_failed": 0,
+      "files_skipped": 0,
+      "compression_ratio": 0,
+      "errors": [
+        "conversion failed: 执行转换失败: 路径权限检查失败 failed: 路径不存在: /Users/nameko_1/Downloads/test_副本3/TEST_COMPREHENSIVE"
+      ],
+      "quality_analysis": null,
+      "format_check": null,
+      "issues": null
+    },
+    {
+      "scenario_id": "bmp_format_conversion_test",
+      "success": false,
+      "duration": 0,
+      "files_processed": 0,
+      "files_successful": 0,
+      "files_failed": 0,
+      "files_skipped": 0,
+      "compression_ratio": 0,
+      "errors": [
+        "conversion failed: 执行转换失败: 路径权限检查失败 failed: 路径不存在: /Users/nameko_1/Downloads/test_副本3/test_media"
+      ],
+      "quality_analysis": null,
+      "format_check": null,
+      "issues": null
+    }
+  ],
+  "summary": {
+    "total": 12,
+    "passed": 0,
+    "failed": 12,
+    "quality_engine_issues": [],
+    "conversion_issues": []
+  }
+}

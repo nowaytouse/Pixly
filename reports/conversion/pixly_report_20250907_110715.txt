@@ -1,0 +1,158 @@
+=== Pixly 媒体转换详细报告 ===
+生成时间: 2025-09-07 11:07:15
+转换模式: auto+
+源目录: /Users/nameko_1/Downloads/test_副本4/output_demo_progress
+处理时长: 18.381542ms
+
+=== 转换统计 ===
+总文件数: 42
+处理文件数: 40
+成功转换: 0
+转换失败: 0
+跳过文件: 40
+总压缩率: 0.00%
+节省空间: -1.23 MB
+
+=== 格式统计 ===
+
+=== 文件转换详情 (前20个) ===
+✅ 成功 - original_high_quality.jxl
+  原始大小: 0.04 MB
+  输出大小: 0.04 MB
+  压缩率: 0.00%
+  格式: .jxl → .jxl
+  处理时间: 0s
+
+✅ 成功 - test_animated_128colors.avif
+  原始大小: 0.00 MB
+  输出大小: 0.00 MB
+  压缩率: 0.00%
+  格式: .avif → .avif
+  处理时间: 0s
+
+✅ 成功 - test_animated_16colors.avif
+  原始大小: 0.00 MB
+  输出大小: 0.00 MB
+  压缩率: 0.00%
+  格式: .avif → .avif
+  处理时间: 0s
+
+✅ 成功 - test_animated_256colors.avif
+  原始大小: 0.00 MB
+  输出大小: 0.00 MB
+  压缩率: 0.00%
+  格式: .avif → .avif
+  处理时间: 0s
+
+✅ 成功 - test_animated_32colors.avif
+  原始大小: 0.00 MB
+  输出大小: 0.00 MB
+  压缩率: 0.00%
+  格式: .avif → .avif
+  处理时间: 0s
+
+✅ 成功 - test_animated_64colors.avif
+  原始大小: 0.00 MB
+  输出大小: 0.00 MB
+  压缩率: 0.00%
+  格式: .avif → .avif
+  处理时间: 0s
+
+✅ 成功 - test_animated_8colors.avif
+  原始大小: 0.00 MB
+  输出大小: 0.00 MB
+  压缩率: 0.00%
+  格式: .avif → .avif
+  处理时间: 0s
+
+✅ 成功 - test_jpeg_q15.jxl
+  原始大小: 0.01 MB
+  输出大小: 0.01 MB
+  压缩率: 0.00%
+  格式: .jxl → .jxl
+  处理时间: 0s
+
+✅ 成功 - test_jpeg_q25.jxl
+  原始大小: 0.01 MB
+  输出大小: 0.01 MB
+  压缩率: 0.00%
+  格式: .jxl → .jxl
+  处理时间: 0s
+
+✅ 成功 - test_jpeg_q35.jxl
+  原始大小: 0.01 MB
+  输出大小: 0.01 MB
+  压缩率: 0.00%
+  格式: .jxl → .jxl
+  处理时间: 0s
+
+✅ 成功 - test_jpeg_q45.jxl
+  原始大小: 0.01 MB
+  输出大小: 0.01 MB
+  压缩率: 0.00%
+  格式: .jxl → .jxl
+  处理时间: 0s
+
+✅ 成功 - test_jpeg_q5.jxl
+  原始大小: 0.00 MB
+  输出大小: 0.00 MB
+  压缩率: 0.00%
+  格式: .jxl → .jxl
+  处理时间: 0s
+
+✅ 成功 - test_jpeg_q55.jxl
+  原始大小: 0.01 MB
+  输出大小: 0.01 MB
+  压缩率: 0.00%
+  格式: .jxl → .jxl
+  处理时间: 0s
+
+✅ 成功 - test_jpeg_q65.jxl
+  原始大小: 0.01 MB
+  输出大小: 0.01 MB
+  压缩率: 0.00%
+  格式: .jxl → .jxl
+  处理时间: 0s
+
+✅ 成功 - test_jpeg_q75.jxl
+  原始大小: 0.01 MB
+  输出大小: 0.01 MB
+  压缩率: 0.00%
+  格式: .jxl → .jxl
+  处理时间: 0s
+
+✅ 成功 - test_jpeg_q85.jxl
+  原始大小: 0.02 MB
+  输出大小: 0.02 MB
+  压缩率: 0.00%
+  格式: .jxl → .jxl
+  处理时间: 0s
+
+✅ 成功 - test_jpeg_q95.jxl
+  原始大小: 0.06 MB
+  输出大小: 0.06 MB
+  压缩率: 0.00%
+  格式: .jxl → .jxl
+  处理时间: 0s
+
+✅ 成功 - test_png_compression0.jxl
+  原始大小: 0.04 MB
+  输出大小: 0.04 MB
+  压缩率: 0.00%
+  格式: .jxl → .jxl
+  处理时间: 0s
+
+✅ 成功 - test_png_compression3.jxl
+  原始大小: 0.04 MB
+  输出大小: 0.04 MB
+  压缩率: 0.00%
+  格式: .jxl → .jxl
+  处理时间: 0s
+
+✅ 成功 - test_png_compression6.jxl
+  原始大小: 0.04 MB
+  输出大小: 0.04 MB
+  压缩率: 0.00%
+  格式: .jxl → .jxl
+  处理时间: 0s
+

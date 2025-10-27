@@ -1,0 +1,55 @@
+{
+  "start_time": "2025-09-06T22:49:35.995417667+08:00",
+  "end_time": "2025-09-06T22:49:36.227926+08:00",
+  "duration": 232508333,
+  "source_directory": "/Users/nameko_1/Downloads/pixly_test",
+  "total_files": 2,
+  "processed_files": 1,
+  "successful_files": 1,
+  "failed_files": 0,
+  "skipped_files": 0,
+  "total_size_before": 4420,
+  "total_size_after": 1893,
+  "space_saved": 2527,
+  "compression_ratio": 57.171945701357465,
+  "conversion_mode": "auto",
+  "file_details": [
+    {
+      "original_path": "/Users/nameko_1/Downloads/pixly_test/test_skip.jxl",
+      "output_path": "/Users/nameko_1/Downloads/pixly_test/test_skip.jxl",
+      "original_size": 1893,
+      "output_size": 1893,
+      "compression_ratio": 0,
+      "original_format": ".jxl",
+      "output_format": ".jxl",
+      "processing_time": 0,
+      "method": "skip",
+      "success": true,
+      "skipped": true,
+      "skip_reason": "already target format"
+    },
+    {
+      "original_path": "/Users/nameko_1/Downloads/pixly_test/test_skip.jxl",
+      "output_path": "/Users/nameko_1/Downloads/pixly_test/test_skip.jxl",
+      "original_size": 1893,
+      "output_size": 1893,
+      "compression_ratio": 0,
+      "original_format": ".jxl",
+      "output_format": ".jxl",
+      "processing_time": 0,
+      "method": "skip",
+      "success": true,
+      "skipped": true,
+      "skip_reason": "already target format"
+    }
+  ],
+  "format_summary": {},
+  "system_info": {
+    "os": "darwin",
+    "arch": "arm64",
+    "cpu_cores": 4,
+    "concurrency": 1,
+    "memory_used_mb": 0
+  },
+  "errors": null
+}

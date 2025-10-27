@@ -1,0 +1,23 @@
+{
+  "total_files": 2,
+  "total_size": 2480,
+  "format_stats": {
+    ".gif": {
+      "count": 1,
+      "total_size": 270,
+      "avg_size": 270
+    },
+    ".jpg": {
+      "count": 1,
+      "total_size": 2210,
+      "avg_size": 2210
+    }
+  },
+  "type_stats": {
+    "image": 2
+  },
+  "size_distribution": {
+    "\u003c 1MB": 2
+  },
+  "largest_files": []
+}

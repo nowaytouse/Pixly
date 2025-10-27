@@ -1,0 +1,79 @@
+concurrency:
+    auto_adjust: true
+    conversion_workers: 4
+    memory_limit: 8192
+    scan_workers: 8
+conversion:
+    default_mode: auto+
+    quality:
+        avif_quality: 75
+        jpeg_quality: 85
+        jxl_quality: 85
+        video_crf: 23
+        webp_quality: 85
+    quality_thresholds:
+        animation:
+            low_quality: 20
+            medium_quality: 1
+        enabled: true
+        image:
+            high_quality: 2
+            medium_quality: 0.5
+            original_quality: 10
+        photo:
+            high_quality: 3
+            low_quality: 0.1
+            medium_quality: 1
+        video:
+            high_quality: 100
+            low_quality: 1
+            medium_quality: 10
+    skip_extensions:
+        - .db
+        - .log
+        - .tmp
+language: zh
+output:
+    directory_template: ""
+    filename_template: ""
+    generate_report: true
+    keep_original: false
+problem_file_handling:
+    codec_incompatibility_strategy: ignore
+    container_incompatibility_strategy: ignore
+    corrupted_file_strategy: ignore
+security:
+    allowed_directories: []
+    check_disk_space: true
+    forbidden_directories:
+        - /System
+        - /Library
+        - /usr
+        - /bin
+        - /sbin
+        - /etc
+        - /var
+        - /tmp
+        - /private
+        - /Applications
+    max_file_size: 10240
+theme:
+    emoji_style: custom
+    enable_ascii_art_colors: true
+    ascii_art_mode: compact  # compact, simplified, enhanced
+    enable_emoji: true
+    enable_instant_input: false
+    mode: dark
+
+advanced:
+    ui:
+        silent_mode: false
+        quiet_mode: false
+        disable_ui: false
+tools:
+    avifenc_path: /opt/homebrew/bin/avifenc
+    cjxl_path: /opt/homebrew/bin/cjxl
+    exiftool_path: /opt/homebrew/bin/exiftool
+    ffmpeg_path: /opt/homebrew/bin/ffmpeg
+    ffprobe_path: /opt/homebrew/bin/ffprobe
+version: "1.2"

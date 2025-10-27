@@ -1,0 +1,4 @@
+theme:
+    mode: dark
+    ascii_art_mode: enhanced
+    enable_ascii_art_colors: true

@@ -1,0 +1,72 @@
+{
+  "total_files": 983,
+  "total_size": 828842598,
+  "format_stats": {
+    ".gif": {
+      "count": 51,
+      "total_size": 165261973,
+      "avg_size": 3240430
+    },
+    ".jpg": {
+      "count": 866,
+      "total_size": 515642525,
+      "avg_size": 595430
+    },
+    ".jxl": {
+      "count": 15,
+      "total_size": 5281409,
+      "avg_size": 352093
+    },
+    ".png": {
+      "count": 51,
+      "total_size": 142656691,
+      "avg_size": 2797190
+    }
+  },
+  "type_stats": {
+    "image": 983
+  },
+  "size_distribution": {
+    "1-5MB": 128,
+    "10-50MB": 7,
+    "5-10MB": 22,
+    "\u003c 1MB": 826
+  },
+  "largest_files": [
+    {
+      "path": "/Users/nameko_1/Downloads/test_副本4/safe_copy_AI测试_05_自动模式+_🆕测试大量转换和嵌套文件夹_自动模式_应当仅使用副本_📁_测フォ_Folder_Name_1756432059/未命名相簿/0069QT6vly1h0wx9m63bdg30k00u07wr.gif",
+      "size": 11735689,
+      "type": "image"
+    },
+    {
+      "path": "/Users/nameko_1/Downloads/test_副本4/safe_copy_AI测试_05_自动模式+_🆕测试大量转换和嵌套文件夹_自动模式_应当仅使用副本_📁_测フォ_Folder_Name_1756432059/未命名相簿/61wzgyji6k9tdqfiuw6d49mxq.jpg",
+      "size": 18008083,
+      "type": "image"
+    },
+    {
+      "path": "/Users/nameko_1/Downloads/test_副本4/safe_copy_AI测试_05_自动模式+_🆕测试大量转换和嵌套文件夹_自动模式_应当仅使用副本_📁_测フォ_Folder_Name_1756432059/未命名相簿/6ompsrjn8e68q3kj0fa0ogddb.gif",
+      "size": 13113885,
+      "type": "image"
+    },
+    {
+      "path": "/Users/nameko_1/Downloads/test_副本4/safe_copy_AI测试_05_自动模式+_🆕测试大量转换和嵌套文件夹_自动模式_应当仅使用副本_📁_测フォ_Folder_Name_1756432059/未命名相簿/7ft8zf2qa807k8s86lskxuzlq.gif",
+      "size": 23611742,
+      "type": "image"
+    },
+    {
+      "path": "/Users/nameko_1/Downloads/test_副本4/safe_copy_AI测试_05_自动模式+_🆕测试大量转换和嵌套文件夹_自动模式_应当仅使用副本_📁_测フォ_Folder_Name_1756432059/未命名相簿/img-1640836174241844527a1gy1gxvottw1dsg20dw0dwnpm.gif",
+      "size": 11232614,
+      "type": "image"
+    },
+    {
+      "path": "/Users/nameko_1/Downloads/test_副本4/safe_copy_AI测试_05_自动模式+_🆕测试大量转换和嵌套文件夹_自动模式_应当仅使用副本_📁_测フォ_Folder_Name_1756432059/未命名相簿/img-1670981453032a2dac37bly1h92d91oming20dm0knx71.gif",
+      "size": 14624790,
+      "type": "image"
+    },
+    {
+      "path": "/Users/nameko_1/Downloads/test_副本4/safe_copy_AI测试_05_自动模式+_🆕测试大量转换和嵌套文件夹_自动模式_应当仅使用副本_📁_测フォ_Folder_Name_1756432059/未命名相簿/笔记精华版.jpg",
+      "size": 23159534,
+      "type": "image"
+    }
+  ]
+}

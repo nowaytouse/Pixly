@@ -1,0 +1,26 @@
+{
+  "start_time": "2025-09-07T10:41:16.408001667+08:00",
+  "end_time": "2025-09-07T10:41:17.158368+08:00",
+  "duration": 750366333,
+  "source_directory": "unknown",
+  "total_files": 1,
+  "processed_files": 1,
+  "successful_files": 1,
+  "failed_files": 0,
+  "skipped_files": 0,
+  "total_size_before": 42762,
+  "total_size_after": 8232,
+  "space_saved": 34530,
+  "compression_ratio": 80.74926336466956,
+  "conversion_mode": "quality",
+  "file_details": null,
+  "format_summary": {},
+  "system_info": {
+    "os": "darwin",
+    "arch": "arm64",
+    "cpu_cores": 4,
+    "concurrency": 1,
+    "memory_used_mb": 0
+  },
+  "errors": null
+}

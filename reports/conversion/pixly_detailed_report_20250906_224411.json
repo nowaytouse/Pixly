@@ -1,0 +1,55 @@
+{
+  "start_time": "2025-09-06T22:44:07.363739+08:00",
+  "end_time": "2025-09-06T22:44:11.105066+08:00",
+  "duration": 3741327000,
+  "source_directory": "/Users/nameko_1/Downloads/test_副本4/test_skip",
+  "total_files": 3,
+  "processed_files": 2,
+  "successful_files": 2,
+  "failed_files": 0,
+  "skipped_files": 0,
+  "total_size_before": 4960,
+  "total_size_after": 2163,
+  "space_saved": 2797,
+  "compression_ratio": 56.39112903225807,
+  "conversion_mode": "auto",
+  "file_details": [
+    {
+      "original_path": "/Users/nameko_1/Downloads/test_副本4/test_skip/test1.jxl",
+      "output_path": "/Users/nameko_1/Downloads/test_副本4/test_skip/test1.jxl",
+      "original_size": 1893,
+      "output_size": 1893,
+      "compression_ratio": 0,
+      "original_format": ".jxl",
+      "output_format": ".jxl",
+      "processing_time": 0,
+      "method": "skip",
+      "success": true,
+      "skipped": true,
+      "skip_reason": "already target format"
+    },
+    {
+      "original_path": "/Users/nameko_1/Downloads/test_副本4/test_skip/test1.jxl",
+      "output_path": "/Users/nameko_1/Downloads/test_副本4/test_skip/test1.jxl",
+      "original_size": 1893,
+      "output_size": 1893,
+      "compression_ratio": 0,
+      "original_format": ".jxl",
+      "output_format": ".jxl",
+      "processing_time": 0,
+      "method": "skip",
+      "success": true,
+      "skipped": true,
+      "skip_reason": "already target format"
+    }
+  ],
+  "format_summary": {},
+  "system_info": {
+    "os": "darwin",
+    "arch": "arm64",
+    "cpu_cores": 4,
+    "concurrency": 1,
+    "memory_used_mb": 0
+  },
+  "errors": null
+}

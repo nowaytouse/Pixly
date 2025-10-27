@@ -1,0 +1,28 @@
+{
+  "total_files": 33,
+  "total_size": 8923202,
+  "format_stats": {
+    ".avif": {
+      "count": 16,
+      "total_size": 638653,
+      "avg_size": 39915
+    },
+    ".gif": {
+      "count": 16,
+      "total_size": 7545065,
+      "avg_size": 471566
+    },
+    ".webp": {
+      "count": 1,
+      "total_size": 739484,
+      "avg_size": 739484
+    }
+  },
+  "type_stats": {
+    "image": 33
+  },
+  "size_distribution": {
+    "\u003c 1MB": 33
+  },
+  "largest_files": []
+}

@@ -1,0 +1,113 @@
+{
+  "total_files": 34,
+  "total_size": 629762589,
+  "format_stats": {
+    ".avif": {
+      "count": 11,
+      "total_size": 3195778,
+      "avg_size": 290525
+    },
+    ".bmp": {
+      "count": 1,
+      "total_size": 4118454,
+      "avg_size": 4118454
+    },
+    ".gif": {
+      "count": 1,
+      "total_size": 3649209,
+      "avg_size": 3649209
+    },
+    ".heic": {
+      "count": 1,
+      "total_size": 181976,
+      "avg_size": 181976
+    },
+    ".heif": {
+      "count": 1,
+      "total_size": 1562983,
+      "avg_size": 1562983
+    },
+    ".ico": {
+      "count": 1,
+      "total_size": 390,
+      "avg_size": 390
+    },
+    ".jxl": {
+      "count": 4,
+      "total_size": 5367113,
+      "avg_size": 1341778
+    },
+    ".mov": {
+      "count": 4,
+      "total_size": 232190536,
+      "avg_size": 58047634
+    },
+    ".mp4": {
+      "count": 4,
+      "total_size": 228852647,
+      "avg_size": 57213161
+    },
+    ".psd": {
+      "count": 1,
+      "total_size": 133197215,
+      "avg_size": 133197215
+    },
+    ".svg": {
+      "count": 1,
+      "total_size": 1277,
+      "avg_size": 1277
+    },
+    ".tiff": {
+      "count": 1,
+      "total_size": 10151438,
+      "avg_size": 10151438
+    },
+    ".webm": {
+      "count": 1,
+      "total_size": 5074707,
+      "avg_size": 5074707
+    },
+    ".webp": {
+      "count": 2,
+      "total_size": 2218866,
+      "avg_size": 1109433
+    }
+  },
+  "type_stats": {
+    "image": 25,
+    "video": 9
+  },
+  "size_distribution": {
+    "1-5MB": 11,
+    "5-10MB": 1,
+    "\u003c 1MB": 17,
+    "\u003e 100MB": 5
+  },
+  "largest_files": [
+    {
+      "path": "/Users/nameko_1/Downloads/test_副本4/debug/test_package/safe_copy_AI测试_03_自动模式+_不同格式测试合集_测试运行_副本_1756431698/斯普拉遁3二创，不过还没做完。只是尝试一下这样的制作记录方式。 - 1.1683133121456(Av443158876,P1).mov",
+      "size": 112753456,
+      "type": "video"
+    },
+    {
+      "path": "/Users/nameko_1/Downloads/test_副本4/debug/test_package/safe_copy_AI测试_03_自动模式+_不同格式测试合集_测试运行_副本_1756431698/斯普拉遁3二创，不过还没做完。只是尝试一下这样的制作记录方式。 - 1.1683133121456(Av443158876,P1).mp4",
+      "size": 112757438,
+      "type": "video"
+    },
+    {
+      "path": "/Users/nameko_1/Downloads/test_副本4/debug/test_package/safe_copy_AI测试_03_自动模式+_不同格式测试合集_测试运行_副本_1756431698/斯普拉遁3二创，不过还没做完。只是尝试一下这样的制作记录方式。 - 1.1683133121456(Av443158876,P1)_remux.mov",
+      "size": 112753456,
+      "type": "video"
+    },
+    {
+      "path": "/Users/nameko_1/Downloads/test_副本4/debug/test_package/safe_copy_AI测试_03_自动模式+_不同格式测试合集_测试运行_副本_1756431698/斯普拉遁3二创，不过还没做完。只是尝试一下这样的制作记录方式。 - 1.1683133121456(Av443158876,P1)_remux.mp4",
+      "size": 112753486,
+      "type": "video"
+    },
+    {
+      "path": "/Users/nameko_1/Downloads/test_副本4/debug/test_package/safe_copy_AI测试_03_自动模式+_不同格式测试合集_测试运行_副本_1756431698/砂糖.psd",
+      "size": 133197215,
+      "type": "image"
+    }
+  ]
+}

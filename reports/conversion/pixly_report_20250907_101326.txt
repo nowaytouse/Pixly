@@ -1,0 +1,60 @@
+=== Pixly 媒体转换详细报告 ===
+生成时间: 2025-09-07 10:13:26
+转换模式: auto+
+源目录: /Users/nameko_1/Downloads/test_副本4/test_silent_mode
+处理时长: 16.90325ms
+
+=== 转换统计 ===
+总文件数: 3
+处理文件数: 3
+成功转换: 0
+转换失败: 0
+跳过文件: 3
+总压缩率: 0.00%
+节省空间: -0.13 MB
+
+=== 格式统计 ===
+
+=== 文件转换详情 (前20个) ===
+✅ 成功 - original_high_quality.avif
+  原始大小: 0.06 MB
+  输出大小: 0.06 MB
+  压缩率: 0.00%
+  格式: .avif → .avif
+  处理时间: 0s
+
+✅ 成功 - test_jpeg_q75.jxl
+  原始大小: 0.01 MB
+  输出大小: 0.01 MB
+  压缩率: 0.00%
+  格式: .jxl → .jxl
+  处理时间: 0s
+
+✅ 成功 - test_png_compression3.avif
+  原始大小: 0.06 MB
+  输出大小: 0.06 MB
+  压缩率: 0.00%
+  格式: .avif → .avif
+  处理时间: 0s
+
+✅ 成功 - original_high_quality.avif
+  原始大小: 0.06 MB
+  输出大小: 0.06 MB
+  压缩率: 0.00%
+  格式: .avif → .avif
+  处理时间: 0s
+
+✅ 成功 - test_jpeg_q75.jxl
+  原始大小: 0.01 MB
+  输出大小: 0.01 MB
+  压缩率: 0.00%
+  格式: .jxl → .jxl
+  处理时间: 0s
+
+✅ 成功 - test_png_compression3.avif
+  原始大小: 0.06 MB
+  输出大小: 0.06 MB
+  压缩率: 0.00%
+  格式: .avif → .avif
+  处理时间: 0s
+

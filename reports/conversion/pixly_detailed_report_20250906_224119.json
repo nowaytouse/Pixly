@@ -1,0 +1,83 @@
+{
+  "start_time": "2025-09-06T22:41:15.439072209+08:00",
+  "end_time": "2025-09-06T22:41:19.221624+08:00",
+  "duration": 3782551791,
+  "source_directory": "/Users/nameko_1/Downloads/test_副本4/test_images",
+  "total_files": 4,
+  "processed_files": 2,
+  "successful_files": 2,
+  "failed_files": 0,
+  "skipped_files": 0,
+  "total_size_before": 4960,
+  "total_size_after": 2163,
+  "space_saved": 2797,
+  "compression_ratio": 56.39112903225807,
+  "conversion_mode": "auto",
+  "file_details": [
+    {
+      "original_path": "/Users/nameko_1/Downloads/test_副本4/test_images/test1.jxl",
+      "output_path": "/Users/nameko_1/Downloads/test_副本4/test_images/test1.jxl",
+      "original_size": 1893,
+      "output_size": 1893,
+      "compression_ratio": 0,
+      "original_format": ".jxl",
+      "output_format": ".jxl",
+      "processing_time": 0,
+      "method": "skip",
+      "success": true,
+      "skipped": true,
+      "skip_reason": "already target format"
+    },
+    {
+      "original_path": "/Users/nameko_1/Downloads/test_副本4/test_images/test2.jxl",
+      "output_path": "/Users/nameko_1/Downloads/test_副本4/test_images/test2.jxl",
+      "original_size": 156,
+      "output_size": 156,
+      "compression_ratio": 0,
+      "original_format": ".jxl",
+      "output_format": ".jxl",
+      "processing_time": 0,
+      "method": "skip",
+      "success": true,
+      "skipped": true,
+      "skip_reason": "already target format"
+    },
+    {
+      "original_path": "/Users/nameko_1/Downloads/test_副本4/test_images/test1.jxl",
+      "output_path": "/Users/nameko_1/Downloads/test_副本4/test_images/test1.jxl",
+      "original_size": 1893,
+      "output_size": 1893,
+      "compression_ratio": 0,
+      "original_format": ".jxl",
+      "output_format": ".jxl",
+      "processing_time": 0,
+      "method": "skip",
+      "success": true,
+      "skipped": true,
+      "skip_reason": "already target format"
+    },
+    {
+      "original_path": "/Users/nameko_1/Downloads/test_副本4/test_images/test2.jxl",
+      "output_path": "/Users/nameko_1/Downloads/test_副本4/test_images/test2.jxl",
+      "original_size": 156,
+      "output_size": 156,
+      "compression_ratio": 0,
+      "original_format": ".jxl",
+      "output_format": ".jxl",
+      "processing_time": 0,
+      "method": "skip",
+      "success": true,
+      "skipped": true,
+      "skip_reason": "already target format"
+    }
+  ],
+  "format_summary": {},
+  "system_info": {
+    "os": "darwin",
+    "arch": "arm64",
+    "cpu_cores": 4,
+    "concurrency": 1,
+    "memory_used_mb": 0
+  },
+  "errors": null
+}
